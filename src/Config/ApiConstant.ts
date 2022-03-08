@@ -1,0 +1,1 @@
+export const API_CRUD_CORE = "https://localhost:44391/api/"
