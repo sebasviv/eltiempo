@@ -1,7 +1,18 @@
 export type SellerListType = {
-  codigo: number;
+  id: number;
   nombre: string;
   apellido: string;
   numero_identificacion: number;
-  codigo_ciudad: number;
+  ciudad: {
+    descripcion: string;
+  };
 };
+
+
+export type SellerArrayType = {
+  id: number;
+  nombre: string;
+  apellido: string;
+  numero_identificacion: number;
+  ciudad: string;
+}
